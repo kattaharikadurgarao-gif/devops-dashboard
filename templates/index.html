@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DevOps Dashboard</title>
+    <style>
+        body { text-align:center; font-family:Arial; background:#f4f4f4; }
+        .box { background:white; padding:20px; margin:100px auto; width:400px; border-radius:10px; }
+        button { padding:10px; background:green; color:white; border:none; }
+    </style>
+</head>
+
+<body>
+<div class="box">
+    <h2>🚀 CI/CD DevOps Project</h2>
+    <p>Status: {{ status }}</p>
+    <p>Deployed using Docker + GitHub Actions</p>
+    <button onclick="location.reload()">Refresh</button>
+</div>
+</body>
+</html>
